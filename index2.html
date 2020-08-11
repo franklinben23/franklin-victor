@@ -6,6 +6,14 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>hi</h1>
+    <h1 id="email">none</h1>
+    <script>
+      var x = document.URL;
+      
+      let y=x.split(`=`);
+      
+      console.log(y);
+      document.getElementById("email").innerHTML = y[1];
+    </script>
   </body>
 </html>
