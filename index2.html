@@ -12,8 +12,8 @@
       
       let y=x.split(`=`);
       
-      console.log(y);
-      document.getElementById("email").innerHTML = y[1];
+      let y1=y[1].replace("%","@");
+      document.getElementById("email").innerHTML = y1;
     </script>
   </body>
 </html>
