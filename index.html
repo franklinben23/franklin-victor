@@ -8,12 +8,12 @@
 
   <body>
     <header id="header">
-      <img src="logo.jpg" id="header-img" alt="imagen aqui" />
-      <nav id="nav-bar">
+      <nav id="nav-bar" role="navigation">
         <a class="nav-link" href="#dogs">Dogs</a> |
         <a class="nav-link" href="#cats">Cats</a> |
         <a class="nav-link" href="#birds">Birds</a>
       </nav>
+      <img src="logo.jpg" id="header-img" alt="imagen aqui" />
     </header>
     <div id="dogs">
       <h1>Dogs</h1>
@@ -152,14 +152,21 @@
       <source src="video1.mp4" type="video/mp4" />
     </video>
 
-    <form id="form" action="">
+    <form id="form" action="index2.html">
       <br />
       <h1>email here</h1>
-      <input required type="email" name="email" id="email" placeholder="Jhon@example.com" />
-      <button type="submit">Button</button>
+      <input
+        required
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Jhon@example.com"
+      />
+      <button class="button-" type="submit">Button</button>
     </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <script src="js/index.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
